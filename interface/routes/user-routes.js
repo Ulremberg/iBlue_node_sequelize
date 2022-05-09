@@ -1,7 +1,7 @@
 const express = require('express');
 
 
-const user = require('../../infrastructure/repository/user-registration-repository');
+const user = require('../../infrastructure/repository/user-repository/user-registration-repository');
 
 
 const routes = express.Router();
