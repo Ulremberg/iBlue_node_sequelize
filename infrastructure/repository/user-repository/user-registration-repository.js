@@ -1,6 +1,6 @@
-const httpStatusResponse = require("../../commons/http-response/http-status-response");
+const httpStatusResponse = require("../../../commons/http-response/http-status-response");
 const modelUser =
-  require("../database/model/user-model/user-registration-model").USER_REGISTRATION_MODEL;
+  require("../../database/model/user-model/user-registration-model").USER_REGISTRATION_MODEL;
 
   const userRegistrationRepository = async (req,res) => {
   try {
